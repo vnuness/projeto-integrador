@@ -2,6 +2,6 @@ package projeto.integrador.DEV;
 
 public class EadPresencial {
     public static void main(String[] args) {
-        System.out.println("jsdnfjlksdnfklsd");
+        System.out.println("jsdnfjlksdnfklssadfsdafsdad");
     }
 }
