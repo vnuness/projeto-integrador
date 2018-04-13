@@ -10,11 +10,11 @@ package projeto.integrador;
  * @author victor.snsilva
  */
 public class BoasNovas {
-    public void boasvindas(){
-        System.out.println("Olá, Seja bem-vindo a Univers (UBT)"
-                + "\nSobre nós"
-                + "\nSomos uma facu"
-                + "\ndjkfnasnklasd"
-                + "\njbfjasbfda.s");
+        public void boasvindas(){
+        System.out.println(" Seja bem-vindo ao Instituto Tecnológico de TI "
+                + "somos uma instituição especializada com cursos de bacharelado e tecnologia. ");
+                
     }
+        
+        
 }
