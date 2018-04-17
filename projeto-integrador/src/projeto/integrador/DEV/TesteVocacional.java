@@ -1,14 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package projeto.integrador.DEV;
 
-/**
- *
- * @author victor.snsilva
- */
-public class TesteVocacional {
-    
+import java.util.Scanner;
+
+public class TesteVocacional
+{
+    public static void main(String[] args)
+    {
+        int opcao;
+        Scanner input = new Scanner(System.in);
+        do
+        {
+        System.out.println("Olá Fulano, recebemos seus dados de inscrição com sucesso !\n"
+                + "Agora, \n"
+                + "Você irá participar do nosso teste vocacional para te ajudar ainda mais a traçar seu caminho. \n"
+                + "\n"
+                + "Digite [1] para iniciar o teste\n"
+                + "Digite [2] para sair");
+                opcao = input.nextInt();
+                if(opcao == 2)
+                {
+                    System.exit(0);
+                } else if (opcao != 1 && opcao != 2)
+                {
+                    System.out.println("Opção inválida!");
+                }
+        } while(opcao != 1);
+    }
 }
