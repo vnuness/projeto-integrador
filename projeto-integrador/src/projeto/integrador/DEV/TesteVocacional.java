@@ -164,7 +164,7 @@ public class TesteVocacional {
 
         } //FIM DO LAÇO DE REPETIÇÃO DO FOR 
 
-        System.out.println("OPÇÃO A = "+contA+" \nOPÇÃO B = "+contB+" \nOPÇÃO C = "+ contC+" \nOPÇÃO D = "+contD+"\nOPÇÃO E = "+contE);
+        System.out.println("OPÇÃO A = " + contA + " \nOPÇÃO B = " + contB + " \nOPÇÃO C = " + contC + " \nOPÇÃO D = " + contD + "\nOPÇÃO E = " + contE);
         System.out.println("### FIM DO TESTE VOCACIONAL ###");
     }
 }
