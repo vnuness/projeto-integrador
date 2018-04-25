@@ -10,7 +10,7 @@ public class ProvaVetor
         Scanner input = new Scanner(System.in);
         int opcao;
         String resposta;
-        int nota = 0;
+        float nota = 0;
         do
         {
             System.out.println("Olá Fulano, hoje iremos avaliá-lo na disciplina \"Algoritmos e Programação\" \n"
