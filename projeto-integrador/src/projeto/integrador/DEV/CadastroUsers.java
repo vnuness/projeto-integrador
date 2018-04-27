@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class CadastroUsers {
 
-    public void cadastro() {
+    public static void main (String[] args) {
         Scanner entrada = new Scanner(System.in);
+        Scanner entrada2 = new Scanner(System.in);
+        int idade;
 
         System.out.println("Para realizar seu cadastro precisamos que responda as seguintes perguntas: ");
 
@@ -13,19 +15,19 @@ public class CadastroUsers {
         String nome = entrada.next();
 
         System.out.println("Informe o nome que gostaria de ser chamado no decorrer do curso:");
-        String apelido = entrada.next();
+        String apelido = entrada2.nextLine();
 
         System.out.println("Informe sua idade: ");
-        int idade = entrada.nextInt();
+        idade = entrada2.nextInt();
 
         System.out.println("Informe seu e-mail: ");
-        String email = entrada.next();
+        String email = entrada2.next();
 
         System.out.println("Está trabalhando? Se sim informar qual área: ");
-        String empregado = entrada.next();
+        String empregado = entrada2.next();
 
         System.out.println("Possui alguma graduação? se sim informar o nome do curso: ");
-        String outraGraduacao = entrada.next();
+        String outraGraduacao = entrada2.next();
 
     }
 }
