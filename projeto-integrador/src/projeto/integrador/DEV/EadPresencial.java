@@ -1,7 +1,9 @@
+package projeto.integrador.DEV;
 import java.util.Scanner;
 
 
 public class EadPresencial {
+  
     public static void main(String[] args) {
        Scanner ler = new Scanner (System.in);
        int p1,p2,p3, ead = 0, presenc = 0, confir;
