@@ -27,7 +27,7 @@ public class EadPresencial {
         } else {
             presenc += 1;
         }
-        System.out.println("Agora nós da universidade .... "
+        System.out.println("Agora nós da UNIVERSIDADE DE TECNOLOGIA DO BRASIL "
                 + "queremos saber a sua opinião, você prefere"
                 + "um ensino presencial, facilitando no ensino pessoal?"
                 + "\n 1- Sim"
@@ -50,13 +50,13 @@ public class EadPresencial {
             if (confir == 1){
                 System.out.println("OK, seu ensino é o presncial,"
                         + " estaremos te transferindo para as aulas do curso"
-                        + "Seja Bem Vindo à Universidade... ");
+                        + "Seja Bem Vindo à UNIVERSIDADE DE TECNOLOGIA DO BRASIL ");
                 
             }else{
                 System.out.println("OK, seu ensino é a distância,"
                         + "estaresmos preparando as aulas do curso"
                         + "e te enviando para a área de ensino do aluno. "
-                        + "Seja Bem Vindo à Universidade");
+                        + "Seja Bem Vindo à UNIVERSIDADE DE TECNOLOGIA DO BRASIL");
             }
         }
         
