@@ -1,9 +1,11 @@
 package projeto.integrador;
 
 import java.util.Scanner;
+import static projeto.integrador.CadastroUsers.apelido;
 
 public class ProvaVetor
 {
+
     public void provaVetor()
     {
         Scanner input = new Scanner(System.in);
@@ -12,7 +14,7 @@ public class ProvaVetor
         float nota = 0;
         do
         {
-            System.out.println("Olá Fulano, hoje iremos avaliá-lo na disciplina \"Algoritmos e Programação\" \n"
+            System.out.println("Olá, " + apelido + " hoje iremos avaliá-lo na disciplina \"Algoritmos e Programação\" \n"
                     + "Digite [1] para começar! ");
             opcao = input.nextInt();
         } while (opcao != 1);
@@ -76,9 +78,10 @@ public class ProvaVetor
                 + "a) Verdadeiro\n"
                 + "b) Falso\n");
         resposta = input.next();
-        switch(resposta){
-            case"b":
-            case"B":
+        switch (resposta)
+        {
+            case "b":
+            case "B":
                 nota += 1;
                 break;
         }
