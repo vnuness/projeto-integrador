@@ -29,6 +29,13 @@ public class CadastroUsers {
         System.out.print("Possui alguma graduação? se sim informar o nome do curso: ");
         String outraGraduacao = entrada.next();
         
+        System.out.println("\n Switch case é uma estrutura muito utilizada em "
+                + "programação. A estrutura Switch case verifica uma variável e age"
+                + "de acordo com suas possibilidades (casos). Os casos são as possibilidade de "
+                + "resultados que são obtidos por switch case. Basicamente, o Switch case"
+                + "serve para controlar várias ações diferentes de acordo com"
+                + "a ação definido dentro de cada caso.");
+        
         
         
     }
