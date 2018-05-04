@@ -3,12 +3,15 @@ package projeto.integrador;
 public class MetodoPrincipal {
 
     public static void main(String[] args) {
-        BoasNovas metodo = new BoasNovas();
+        BoasVindas saudacao = new BoasVindas();
         CadastroUsers cadastro = new CadastroUsers();
+        ProvaVetor provaVetor = new ProvaVetor();
+        ProvaIfElse provaIf = new ProvaIfElse();
         
-        //metodo.boasvindas();
+        saudacao.boasvindas();
         cadastro.cadastro();
-        
+        provaVetor.provaVetor();
+        provaIf.provaIfElse();
     }
 
 }

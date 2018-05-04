@@ -1,11 +1,10 @@
-package projeto.integrador.DEV;
+package projeto.integrador;
 
 import java.util.Scanner;
 
 public class ProvaVetor
 {
-
-    public static void main(String[] args)
+    public void provaVetor()
     {
         Scanner input = new Scanner(System.in);
         int opcao;

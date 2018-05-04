@@ -1,10 +1,11 @@
-package projeto.integrador.DEV;
+package projeto.integrador;
 
 import java.util.Scanner;
 
-public class ProvaIfElse {
-    
-    public static void main(String[] args) {
+public class ProvaIfElse
+{
+    public void provaIfElse()
+    {
         Scanner entrada = new Scanner(System.in);
 
         String resposta;
@@ -62,7 +63,6 @@ public class ProvaIfElse {
                 nota += 2;
                 break;
         }
-        System.out.println("Sua nota foi: " +nota);
+        System.out.println("Sua nota foi: " + nota);
     }
-
 }

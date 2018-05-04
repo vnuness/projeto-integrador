@@ -1,9 +1,9 @@
-package projeto.integrador.DEV;
+package projeto.integrador;
 
-public class BoasNovas
+public class BoasVindas
 {
 
-    public static void main(String[] args)
+    public void boasvindas()
     {
         System.out.println("                 UNIVERSIDADE DE TECNOLOGIA DO BRASIL            \n"
                 + "                 Olá !! Seja muito bem vindo à UBT!                \n"
@@ -13,5 +13,7 @@ public class BoasNovas
                 + "e o empreendedorismo. Porque a UTB acredita no poder transformador da tecnologia.\n"
                 + "Um poder que, aliado à criatividade, inventa, muda, inquieta. Faz as pessoas buscarem soluções\n"
                 + "que nunca foram pensadas. Tudo isso para construir um mundo melhor.");
+
     }
+
 }
