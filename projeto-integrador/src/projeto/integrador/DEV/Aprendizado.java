@@ -1,10 +1,8 @@
 package projeto.integrador.DEV;
 
-public class Aprendizado
-{
+public class Aprendizado {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         System.out.println("Agora, vamos aprender sobre as principais matérias do seu curso: \n"
                 + "1 - Estruturas condicionais: \n"
                 + "As estruturas condicionais permitem que uma instrução ou bloco de\n"
@@ -56,5 +54,38 @@ public class Aprendizado
                 + "System.out.println(“ALGORITMOS I”);\n"
                 + "i = i + 1;\n"
                 + "}");
+
+        System.out.println("4 - Vetores(Arrays): \n"
+                + "• Arrays são estruturas de dados que armazenam\n "
+                + "uma quantidade fixa de dados de um certo tipo\n"
+                + "• Também chamados de vetores. \n"
+                + "• São variáveis que servem para guardar vários\n"
+                + "valores do mesmo tipo de forma uniforme na\n"
+                + "memória\n"
+                + "Exemplo de array: \n"
+                + "public class Class1\n"
+                + "{\n"
+                + "	public Class1()\n"
+                + "	{\n"
+                + "        int soma = 0;\n"
+                + "        int menor = v[0];\n"
+                + "        int maior = V[0];\n"
+                + "\n"
+                + "        for (int i = 0; i < n; i++)\n"
+                + "        {\n"
+                + "            soma = soma + v[i];\n"
+                + "\n"
+                + "            if(v[i] < menor)\n"
+                + "            {\n"
+                + "                menor = v[i];\n"
+                + "            } else if(v[i] > maior)\n"
+                + "            {\n"
+                + "                maior = v[i];\n"
+                + "            }\n"
+                + "            \n"
+                + "        }\n"
+                + "	}\n"
+                + "}");
+
     }
 }
