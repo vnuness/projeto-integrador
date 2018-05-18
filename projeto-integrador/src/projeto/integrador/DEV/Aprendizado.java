@@ -7,13 +7,14 @@ public class Aprendizado
 
     public static void main(String[] args)
     {
-        int opcao;
+        int[] opcao = new int[5];
         Scanner input = new Scanner(System.in);
+        Scanner teste = new Scanner(System.in);
         System.out.println("Agora, vamos aprender sobre as princispais matérias do seu curso: \n"
                 + "Digite [1] para iniciar\n"
                 + "Digite [2] para sair\n");
-        opcao = input.nextInt();
-        if (opcao == 2)
+        opcao[0] = input.nextInt();
+        if (opcao[0] == 2)
             System.exit(0);
 
         System.out.println("1 - Estruturas condicionais: \n"
@@ -30,6 +31,11 @@ public class Aprendizado
                 + "      }\n"
                 + "   }\n"
                 + "}");
+        System.out.println("Digite [1] para prosseguir para o estudo de Switch Case \n"
+                + "Digite [2] para sair");
+                opcao[1] = teste.nextInt();
+                if (opcao[1] == 2)
+                    System.exit(0);
         System.out.println("2 - Estruturas condicionais - Switch Case: \n"
                 + "A estrutura Switch Case Permite que uma variável\n"
                 + "seja testada através da operação de igualdade e comparada com uma lista\n"

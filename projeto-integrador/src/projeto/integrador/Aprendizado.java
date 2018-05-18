@@ -7,13 +7,13 @@ public class Aprendizado
 
     public void aprendizado()
     {
-        int opcao;
+        int[] opcao = new int[5];
         Scanner input = new Scanner(System.in);
-        System.out.println("Agora, vamos aprender sobre as princispais matérias do seu curso: \n"
+        System.out.println("Agora, vamos aprender sobre as principais matérias do seu curso: \n"
                 + "Digite [1] para iniciar\n"
                 + "Digite [2] para sair\n");
-        opcao = input.nextInt();
-        if (opcao == 2)
+        opcao[0] = input.nextInt();
+        if (opcao[0] == 2)
             System.exit(0);
         System.out.println("1 - Estruturas condicionais: \n"
                 + "As estruturas condicionais permitem que uma instrução ou bloco de\n"
@@ -29,6 +29,12 @@ public class Aprendizado
                 + "      }\n"
                 + "   }\n"
                 + "}");
+        System.out.println("Digite [1] para iniciar o estudo de estruturas condicionais\n"
+                + "Digite [2] para sair\n"
+        );
+        opcao[1] = input.nextInt();
+        if (opcao[1] == 2)
+            System.exit(0);
         System.out.println("2 - Estruturas condicionais - Switch Case: \n"
                 + "A estrutura Switch Case Permite que uma variável\n"
                 + "seja testada através da operação de igualdade e comparada com uma lista\n"
@@ -51,6 +57,12 @@ public class Aprendizado
                 + " default :\n"
                 + " System.out.print(\"Conceito inválido!\");\n"
                 + "}");
+        System.out.println("Digite [1] para iniciar o estudo de Estruturas de repetição\n"
+                + "Digite [2] para sair\n"
+        );
+        opcao[2] = input.nextInt();
+        if (opcao[2] == 2)
+            System.exit(0);
         System.out.println("3 - Estruturas de Repetição: \n"
                 + "As estruturas de repetição permitem executar um conjunto de comando várias vezes.\n"
                 + "Temos 3 tipos de laços de repetição: FOR, WHILE e DO WHILE.\n"
@@ -65,6 +77,12 @@ public class Aprendizado
                 + "System.out.println(“ALGORITMOS I”);\n"
                 + "i = i + 1;\n"
                 + "}");
+        System.out.println("Digite [1] para iniciar o estudo de Arrays\n"
+                + "Digite [2] para sair\n"
+        );
+        opcao[3] = input.nextInt();
+        if (opcao[3] == 2)
+            System.exit(0);
 
         System.out.println("4 - Vetores(Arrays): \n"
                 + "• Arrays são estruturas de dados que armazenam\n "

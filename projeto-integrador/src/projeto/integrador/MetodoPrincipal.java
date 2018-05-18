@@ -15,13 +15,13 @@ public class MetodoPrincipal {
         // chamada de todos os métodos
         
         saudacao.boasvindas();
-        cadastro.cadastro();
-        teste.testeVocacional();
+        /*cadastro.cadastro();
+        teste.testeVocacional();*/
         aprend.aprendizado();
-        provaVetor.provaVetor();
+        /*provaVetor.provaVetor();
         provaIf.provaIfElse();
         provaSwitch.provaSwitch();
-        encerramento.encerramento();
+        encerramento.encerramento();*/
     }
 
 }
