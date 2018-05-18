@@ -6,7 +6,7 @@ public class BoasVindas
     public void boasvindas()
     {
         System.out.println("                 UNIVERSIDADE DE TECNOLOGIA DO BRASIL            \n"
-                + "                 Olá !! Seja muito bem vindo à UBT!                \n"
+                + "                 Olá !! Seja muito bem vindo à UTB!                \n"
                 + "                             Sobre nós: \n"
                 + "A UTB é o centro de excelência em tecnologia mais respeitado do país.\n"
                 + "Uma história que vem sendo construída dia após dia, estimulando mentes a vivenciarem a inovação\n"
