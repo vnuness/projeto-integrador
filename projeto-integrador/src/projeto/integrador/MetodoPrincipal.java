@@ -9,6 +9,7 @@ public class MetodoPrincipal {
         ProvaIfElse provaIf = new ProvaIfElse();
         ProvaSwitch provaSwitch = new ProvaSwitch();
         TesteVocacional teste = new TesteVocacional();
+        Aprendizado aprend = new Aprendizado();
         Encerramento encerramento = new Encerramento();
         
         // chamada de todos os métodos
@@ -16,6 +17,7 @@ public class MetodoPrincipal {
         saudacao.boasvindas();
         cadastro.cadastro();
         teste.testeVocacional();
+        aprend.aprendizado();
         provaVetor.provaVetor();
         provaIf.provaIfElse();
         provaSwitch.provaSwitch();

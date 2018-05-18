@@ -13,7 +13,8 @@ public class TesteVocacional
         char tmp2;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Olá, " + apelido + " recebemos seus dados de inscrição com sucesso !\n"
+        System.out.println("\n "
+                + "Olá, " + apelido + " recebemos seus dados de inscrição com sucesso !\n"
                 + "Agora, \n"
                 + "Você irá participar do nosso teste vocacional para te ajudar ainda mais a traçar seu caminho. \n");
 
