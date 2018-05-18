@@ -1,12 +1,21 @@
 package projeto.integrador;
 
+import java.util.Scanner;
+
 public class Aprendizado
 {
 
     public void aprendizado()
     {
-        System.out.println("Agora, vamos aprender sobre as principais matérias do seu curso: \n"
-                + "1 - Estruturas condicionais: \n"
+        int opcao;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Agora, vamos aprender sobre as princispais matérias do seu curso: \n"
+                + "Digite [1] para iniciar\n"
+                + "Digite [2] para sair\n");
+        opcao = input.nextInt();
+        if (opcao == 2)
+            System.exit(0);
+        System.out.println("1 - Estruturas condicionais: \n"
                 + "As estruturas condicionais permitem que uma instrução ou bloco de\n"
                 + "instruções seja executada após o\n"
                 + "resultado de uma avaliação condicional."
