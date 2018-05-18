@@ -40,12 +40,12 @@ public class CadastroUsers
         System.out.print("Possui alguma graduação? se sim informar o nome do curso: ");
         outraGraduacao = entrada.next();
 
-        System.out.println("\n Switch case é uma estrutura muito utilizada em \n"
+        /*System.out.println("\n Switch case é uma estrutura muito utilizada em \n"
                 + "programação. A estrutura Switch case verifica uma variável e age\n"
                 + "de acordo com suas possibilidades (casos). Os casos são as possibilidade de \n"
                 + "resultados que são obtidos por switch case. Basicamente, o Switch case\n"
                 + "serve para controlar várias ações diferentes de acordo com\n"
-                + "a ação definido dentro de cada .");
+                + "a ação definido dentro de cada .");*/
 
     }
 }
