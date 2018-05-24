@@ -12,7 +12,7 @@ public class CadastroUsers
     static String empregado;
     static String outraGraduacao;
 
-    public void cadastro()
+    public void addUser()
     {
 
         Scanner entrada = new Scanner(System.in);

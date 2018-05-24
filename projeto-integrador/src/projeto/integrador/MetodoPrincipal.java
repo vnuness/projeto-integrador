@@ -14,11 +14,11 @@ public class MetodoPrincipal {
         
         // chamada de todos os métodos
         
-        saudacao.boasvindas();
-        /*cadastro.cadastro();
-        teste.testeVocacional();*/
-        aprend.aprendizado();
-        /*provaVetor.provaVetor();
+        //saudacao.boasvindas();
+        //cadastro.addUser();
+        teste.vocacionalTest();
+        /*aprend.aprendizado();
+        provaVetor.provaVetor();
         provaIf.provaIfElse();
         provaSwitch.provaSwitch();
         encerramento.encerramento();*/

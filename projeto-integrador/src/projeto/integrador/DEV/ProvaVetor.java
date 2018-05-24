@@ -9,7 +9,7 @@ public class ProvaVetor
     {
         Scanner input = new Scanner(System.in);
         int opcao;
-        String resposta;
+        String[] resposta = new String[4];
         float nota = 0;
         do
         {
