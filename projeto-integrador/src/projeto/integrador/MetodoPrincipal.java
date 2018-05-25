@@ -13,10 +13,10 @@ public class MetodoPrincipal {
         
         // chamada de todos os métodos
         
-        /*saudacao.boasvindas();
+        saudacao.boasvindas();
         cadastro.addUser();
         tv.testeVocacional();
-        aprend.aprendizado();*/
+        aprend.aprendizado();
         prova.provaIfElse();
         prova.provaSwitch();
         prova.provaVetor();
