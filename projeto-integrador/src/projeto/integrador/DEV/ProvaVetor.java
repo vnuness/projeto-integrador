@@ -10,6 +10,26 @@ public class ProvaVetor
         Scanner input = new Scanner(System.in);
         int opcao;
         String[] resposta = new String[4];
+        String[][] respostauser = new String[5][2];
+        respostauser[0][0] = "Pergunta |";
+        respostauser[0][1] = " Resposta";
+        respostauser[1][0] = "    1    |";
+        respostauser[2][0] = "    2    |";
+        respostauser[3][0] = "    3    |";
+        respostauser[4][0] = "    4    |";
+        String[][] gabarito = new String[5][2];
+        gabarito[0][0] = "Pergunta |";
+        gabarito[0][1] = " Resposta";
+        gabarito[1][0] = "    1    |";
+        gabarito[1][1] = "    " + "C";
+        gabarito[2][0] = "    2    |";
+        gabarito[2][1] = "    " + "A";
+        gabarito[3][0] = "    3    |";
+        gabarito[3][1] = "    " + "D";
+        gabarito[4][0] = "    4    |";
+        gabarito[4][1] = "    " + "B";
+        
+
         float nota = 0;
         do
         {
@@ -23,8 +43,9 @@ public class ProvaVetor
                 + "c) Int Vetor[];\n"
                 + "d) Int Vetor /**/;\n"
                 + "e) Int Vetor ([]);\n");
-        resposta = input.next();
-        switch (resposta)
+        resposta[0] = input.next();
+        respostauser[1][1] = "    " + resposta[0];
+        switch (resposta[0])
         {
             case "c":
             case "C":
@@ -38,8 +59,9 @@ public class ProvaVetor
                 + "b) int array() = new array [10]\n"
                 + "c) array = new int[20];\n"
                 + "d) array = {10};\n");
-        resposta = input.next();
-        switch (resposta)
+        resposta[1] = input.next();
+        respostauser[2][1] = "    " + resposta[1];
+        switch (resposta[1])
         {
             case "a":
             case "A":
@@ -54,12 +76,13 @@ public class ProvaVetor
                 + "b) 93\n"
                 + "c) 248\n"
                 + "d) 264\n");
-        resposta = input.next();
-        switch (resposta)
+        resposta[2] = input.next();
+        respostauser[3][1] = "    " + resposta[2];
+        switch (resposta[2])
         {
             case "d":
             case "D":
-                nota += 3;
+                nota += 3;               
                 break;
         }
         System.out.println("\n");
@@ -76,13 +99,23 @@ public class ProvaVetor
                 + "O laço de repetição imprime os valores de 1 até 10 ao final da execução ? (1,0 pontos)\n"
                 + "a) Verdadeiro\n"
                 + "b) Falso\n");
-        resposta = input.next();
-        switch(resposta){
-            case"b":
-            case"B":
+        resposta[3] = input.next();
+        respostauser[4][1] = "    " + resposta[3];
+        switch (resposta[3])
+        {
+            case "b":
+            case "B":
                 nota += 1;
                 break;
         }
-        System.out.println("A prova valia 10 pontos, e sua nota foi: " + nota);
+        System.out.println("A prova valia 10 pontos, e sua nota foi: " + nota + "\n");
+        System.out.print("   Suas Respostas:");
+        System.out.print("                        Gabarito: \n");
+        System.out.println(respostauser[0][0] + respostauser[0][1] + "                  " + gabarito[0][0] + gabarito[0][1]); 
+        System.out.println(respostauser[1][0] + respostauser[1][1] + "                      " + gabarito[1][0] + gabarito[1][1]);
+        System.out.println(respostauser[2][0] + respostauser[2][1] + "                      " + gabarito[2][0] + gabarito[2][1]);
+        System.out.println(respostauser[3][0] + respostauser[3][1] + "                      " + gabarito[3][0] + gabarito[3][1]);
+        System.out.println(respostauser[4][0] + respostauser[4][1] + "                      " + gabarito[4][0] + gabarito[4][1]);
+        
     }
 }

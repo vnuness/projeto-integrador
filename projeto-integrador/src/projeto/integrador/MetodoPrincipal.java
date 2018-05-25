@@ -16,7 +16,7 @@ public class MetodoPrincipal {
         
         //saudacao.boasvindas();
         //cadastro.addUser();
-        teste.vocacionalTest();
+        teste.testeVocacional();
         /*aprend.aprendizado();
         provaVetor.provaVetor();
         provaIf.provaIfElse();
