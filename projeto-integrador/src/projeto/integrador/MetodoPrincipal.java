@@ -13,15 +13,17 @@ public class MetodoPrincipal {
         
         // chamada de todos os métodos
         
-        //saudacao.boasvindas();
-        //cadastro.addUser();
-        //tv.testeVocacional();
-        //aprend.aprendizado();
+        /*saudacao.boasvindas();
+        cadastro.addUser();
+        tv.testeVocacional();
+        aprend.aprendizado();*/
         prova.provaIfElse();
         prova.provaSwitch();
         prova.provaVetor();
         prova.imprimeResultado();
+        float nota = prova.imprimeResultado();
         encerramento.encerramento();
+        encerramento.resultadoFinal(nota);
     }
 
 }

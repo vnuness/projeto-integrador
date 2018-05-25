@@ -10,6 +10,7 @@ public class Prova
     static String[] resposta = new String[12];
     static String[][] respostauser = new String[13][2];
     static String[][] gabarito = new String[13][2];
+    
     public static void gabarito()
     {
         
@@ -275,7 +276,8 @@ public class Prova
         
         
     }
-    public void imprimeResultado()
+    
+    public float  imprimeResultado()
     {
         System.out.println("A prova valia 10 pontos, e sua nota foi: " + nota + "\n");
         System.out.print("   Suas Respostas:");
@@ -293,6 +295,8 @@ public class Prova
         System.out.println(respostauser[10][0] + respostauser[10][1] + "                      " + gabarito[10][0] + gabarito[10][1]);
         System.out.println(respostauser[11][0] + respostauser[11][1] + "                      " + gabarito[11][0] + gabarito[11][1]);
         System.out.println(respostauser[12][0] + respostauser[12][1] + "                      " + gabarito[12][0] + gabarito[12][1]);
+        System.out.println("\n");
+        return nota;
     }
     
     
