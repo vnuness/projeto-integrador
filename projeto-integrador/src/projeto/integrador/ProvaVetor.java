@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ProvaVetor
 {
 
-    public static void provaVetor()
+    public void provaVetor()
     {
         Scanner input = new Scanner(System.in);
         int opcao;
