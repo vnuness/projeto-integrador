@@ -28,7 +28,6 @@ public class ProvaVetor
         gabarito[3][1] = "    " + "D";
         gabarito[4][0] = "    4    |";
         gabarito[4][1] = "    " + "B";
-        
 
         float nota = 0;
         do
@@ -82,7 +81,7 @@ public class ProvaVetor
         {
             case "d":
             case "D":
-                nota += 3;               
+                nota += 3;
                 break;
         }
         System.out.println("\n");
@@ -111,11 +110,11 @@ public class ProvaVetor
         System.out.println("A prova valia 10 pontos, e sua nota foi: " + nota + "\n");
         System.out.print("   Suas Respostas:");
         System.out.print("                        Gabarito: \n");
-        System.out.println(respostauser[0][0] + respostauser[0][1] + "                  " + gabarito[0][0] + gabarito[0][1]); 
+        System.out.println(respostauser[0][0] + respostauser[0][1] + "                  " + gabarito[0][0] + gabarito[0][1]);
         System.out.println(respostauser[1][0] + respostauser[1][1] + "                      " + gabarito[1][0] + gabarito[1][1]);
         System.out.println(respostauser[2][0] + respostauser[2][1] + "                      " + gabarito[2][0] + gabarito[2][1]);
         System.out.println(respostauser[3][0] + respostauser[3][1] + "                      " + gabarito[3][0] + gabarito[3][1]);
         System.out.println(respostauser[4][0] + respostauser[4][1] + "                      " + gabarito[4][0] + gabarito[4][1]);
-        
+
     }
 }
