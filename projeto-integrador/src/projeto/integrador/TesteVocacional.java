@@ -79,6 +79,7 @@ public class TesteVocacional
     public void testeVocacional()
     {
         int opcao, contA = 0, contB = 0, contC = 0, contD = 0, contE = 0;
+        int[] cont = new int[5];
         String tmp = null;
         char tmp2;
         Scanner input = new Scanner(System.in);
@@ -229,28 +230,28 @@ public class TesteVocacional
             switch (tmp2)
             {
                 case 'a':
-                case 'A':
-                    contA++;
+                case 'A':                    
+                    cont[0]++;
                     break;
 
                 case 'b':
-                case 'B':
-                    contB++;
+                case 'B':                    
+                    cont[1]++;
                     break;
 
                 case 'c':
-                case 'C':
-                    contC++;
+                case 'C':                    
+                    cont[2]++;
                     break;
 
                 case 'd':
-                case 'D':
-                    contD++;
+                case 'D':                    
+                    cont[3]++;
                     break;
 
                 case 'e':
-                case 'E':
-                    contE++;
+                case 'E':                   
+                    cont[4]++;
                     break;
 
                 default:
@@ -258,7 +259,7 @@ public class TesteVocacional
 
             }
         }
-        System.out.println("OPÇÃO A = " + contA + " \nOPÇÃO B = " + contB + " \nOPÇÃO C = " + contC + " \nOPÇÃO D = " + contD + "\nOPÇÃO E = " + contE);
+        System.out.println("OPÇÃO A = " + cont[0] + " \nOPÇÃO B = " + cont[1] + " \nOPÇÃO C = " + cont[2] + " \nOPÇÃO D = " + cont[3] + "\nOPÇÃO E = " + cont[4]);
         
         System.out.println("### FIM DO TESTE VOCACIONAL ###");
         System.out.println("### CONSIDERAÇÕES FINAIS ###");
@@ -275,8 +276,6 @@ public class TesteVocacional
         textoC();
         textoD();
         textoE();
-        
-        
         System.out.println("Nota: Se você escolheu você obteve maiores números de respostas das letras C e D, você está pronto para ingressar conosco. Caso não, estamos dispostos a ajudá-lo e incentivá-lo a conhecer esse novo universo!");
     }
 }
