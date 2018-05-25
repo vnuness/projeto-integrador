@@ -276,6 +276,6 @@ public class TesteVocacional
         textoC();
         textoD();
         textoE();
-        System.out.println("Nota: Se você escolheu você obteve maiores números de respostas das letras C e D, você está pronto para ingressar conosco. Caso não, estamos dispostos a ajudá-lo e incentivá-lo a conhecer esse novo universo!");
+        System.out.println("Nota: Se você escolheu você obteve maiores números de respostas das letras C e D, você está pronto para ingressar conosco. Caso não, estamos dispostos a ajudá-lo e incentivá-lo a conhecer esse novo universo!\n");
     }
 }
