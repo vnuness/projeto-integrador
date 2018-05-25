@@ -78,7 +78,7 @@ public class TesteVocacional
 
     public void testeVocacional()
     {
-        int opcao, contA = 0, contB = 0, contC = 0, contD = 0, contE = 0;
+        int opcao;
         int[] cont = new int[5];
         String tmp = null;
         char tmp2;

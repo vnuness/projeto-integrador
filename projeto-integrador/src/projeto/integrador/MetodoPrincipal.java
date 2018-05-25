@@ -6,22 +6,21 @@ public class MetodoPrincipal {
         //criação dos objetos
         BoasVindas saudacao = new BoasVindas();
         CadastroUsers cadastro = new CadastroUsers();
-        ProvaVetor provaVetor = new ProvaVetor();
-        ProvaIfElse provaIf = new ProvaIfElse();
-        ProvaSwitch provaSwitch = new ProvaSwitch();
-        TesteVocacional teste = new TesteVocacional();
+        Prova prova = new Prova();
+        TesteVocacional tv = new TesteVocacional();
         Aprendizado aprend = new Aprendizado();
         Encerramento encerramento = new Encerramento();
         
         // chamada de todos os métodos
         
-        saudacao.boasvindas();
-        cadastro.addUser();
-        teste.testeVocacional();
-        aprend.aprendizado();
-        provaVetor.provaVetor();
-        provaIf.provaIfElse();
-        provaSwitch.provaSwitch();
+        //saudacao.boasvindas();
+        //cadastro.addUser();
+        //tv.testeVocacional();
+        //aprend.aprendizado();
+        prova.provaIfElse();
+        prova.provaSwitch();
+        prova.provaVetor();
+        prova.imprimeResultado();
         encerramento.encerramento();
     }
 
