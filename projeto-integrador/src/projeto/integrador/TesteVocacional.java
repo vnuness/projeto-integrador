@@ -5,6 +5,76 @@ import static projeto.integrador.CadastroUsers.apelido;
 
 public class TesteVocacional
 {
+    public void textoA()
+    {
+        System.out.println("Tipo A – Em busca do prazer \n" +
+"Você faz suas escolhas baseado principalmente na busca da satisfação e realização pessoal.\n" +
+"Ao se decidir por uma profissão, considere se ela irá de fato lhe proporcionar a realização que tanto valoriza.\n" +
+"Se você levar em conta seus gostos e interesses irá, com certeza, ter sucesso e ser feliz.\n" +
+"Lista das Profissões:\n" +
+"Arquitetura, Artes Cênicas, Artes Plásticas, Astronomia, Ciências Biológicas, Artes Plásticas, Cinema,\n" +
+"Engenharia Mecânica, Esporte, Filosofia, Jornalismo, Matemática, Publicidade, Rádio e TV, Turismo e Veterinária.\n\n"
+                + "Dica: Converse com pessoas que têm as profissões pelas quais se interessa e observe o que elas fazem no dia-a-dia.\n" +
+"Lembre-se que irá passar boa parte da vida nessas atividades e que, para você, estar em sintonia com os desejos é essencial.\n");
+    }
+    
+    public void textoB()
+    {
+        System.out.println("Tipo B – Em busca da fama e do reconhecimento\n" +
+"Para você, o mais importante é ser reconhecido e valorizado pelos outros.\n" +
+"Ao escolher uma profissão, leve em conta as oportunidades que ela lhe oferece para se projetar socialmente.\n" +
+"Ser considerado o melhor naquilo que faz e ficar famoso são atributos muito importantes para você e devem participar da sua decisão.\n" +
+"Lista das Profissões:\n" +
+"Medicina, Direito, Artes Cênicas, Arquitetura, Cinema, Editoração, Engenharia Aeronáutica, Jornalismo e Odontologia. \n" +
+"Em medicina, Dermatologia, Ginecologia, Cirurgia plástica e Cirurgia geral.\n" +
+"\n" +
+"Dica: Dê atenção especial às profissões que oferecem oportunidades para se destacar ou esteja em alta.\n" +
+"Converse com pessoas que você admira por essas características e veja o que elas fizeram para alcançar sucesso.\n");
+    }
+    
+    public void textoC()
+    {
+        System.out.println("Tipo C - Em busca do afeto\n" +
+"Você faz suas escolhas baseado principalmente nas suas relações interpessoais e familiares.\n" +
+"Fazer o que sua família valoriza e ser aceito e respeitado pelos amigos é essencial para o seu bem-estar.\n" +
+"Ao optar por uma profissão, verifique se ela está de acordo com os valores da sua família e amigos.\n" +
+"Lista das Profissões:\n" +
+"Medicina, Odontologia, Engenharia Civil, Engenharia da Computação, Letras, Nutrição, Pedagogia, Psicologia e Veterinária.\n" +
+"Em medicina, Infectologia, Geriatria, Cirurgia pediátrica e oncologia.\n" +
+"\n" +
+"Dica: Fique atento às oportunidades que a profissão de seus familiares lhe oferece.\n" +
+"Outra alternativa é uma atividade profissional que lhe permita se associar a amigos ou parentes.\n");
+    }
+    
+    public void textoD()
+    {
+        System.out.println("Tipo D – Em busca da grana\n" +
+"Você faz suas escolhas pensando nas recompensas financeiras e materiais.\n" +
+"Poder comprar o que quiser e usufruir de todo o conforto são suas principais ambições.\n" +
+"Portanto, ao decidir por uma profissão esteja seguro sobre as possibilidades de remuneração que ela oferece.\n" +
+"Lista das Profissões:\n" +
+"Administração, Ciências Contábeis, Análise de sistemas, Economia, Engenharia da Computação, Fármacia, Fisíca Médica.\n" +
+"Em medicina, ortopedia, Neurociência, Cardiologista, Oftalmologia e Cirurgia plástica.\n" +
+"\n" +
+"Dica: Investigue quais profissões remuneram melhor ou permitem grandes ganhos financeiros a curto prazo.\n" +
+"Procure conversar com pessoas bem-sucedidas financeiramente e tente descobrir os negócios e oportunidades do momento.\n");
+    }
+    
+    public void textoE()
+    {
+        System.out.println("Tipo E – Em busca do social\n" +
+"Suas escolhas são sempre baseadas em valores éticos e morais,levando em conta os interesses da comunidade em que você vive e,\n" +
+"de maneira mais ampla, da sociedade, acima mesmo de seus interesses pessoais.\n" +
+"Lista das Profissões: \n" +
+"Ciências Sociais, Enfermagem, Fonoaudiologia, Engenharia de Alimentos, Jornalismo, Nutrição, Terapia Ocupacional, Psicologia,\n" +
+"Serviço Social, fisioterapia, terapia ocupacional, musicoterapia, odontologia, decoração e moda.\n" +
+"Em medicina, pediatria, ginecologia e obstetrícia, geriatria e dermatologia.\n" +
+"\n" +
+"Dica: Investigue as profissões nas quais você possa desenvolver trabalhos dos mais diversos tipos junto à comunidade,\n" +
+"auxiliando a população carente. Pense ainda na possibilidade de uma carreira tradicional,\n" +
+"mas reservando um espaço para o trabalho voluntário. Outra opção que vem crescendo é o chamado Terceiro Setor,\n" +
+"que recebe financiamento dos governos federal, estadual, municipal e também da iniciativa privada.\n");
+    }
 
     public void testeVocacional()
     {
@@ -188,5 +258,25 @@ public class TesteVocacional
 
             }
         }
+        System.out.println("OPÇÃO A = " + contA + " \nOPÇÃO B = " + contB + " \nOPÇÃO C = " + contC + " \nOPÇÃO D = " + contD + "\nOPÇÃO E = " + contE);
+        
+        System.out.println("### FIM DO TESTE VOCACIONAL ###");
+        System.out.println("### CONSIDERAÇÕES FINAIS ###");
+        System.out.println("Em geral os adolescentes têm muitas dúvidas sobre a escolha profissional,\n"
+                + " uma das funções do Teste Vocacional na modalidade digital é garantir a precisão,\n"
+                + " facilidade na aplicação e eficácia nas respostas de maneira a permitir o\n"
+                + " entendimento da Escolha  Profissonal que mais se aproxima do perfil do estudante.\n"
+                + " Considerar os diferentes perfis psicológicos, isto é, compreender a timidez,\n"
+                + " o estudante calculista, o candidato mais introspectivo, o agressivo, o alegre,\n"
+                + " o revoltado, o imaginativo e tantos outros perfis é o desafio dessa pesquisa. \n" +
+"  ");
+        textoA();
+        textoB();
+        textoC();
+        textoD();
+        textoE();
+        
+        
+        System.out.println("Nota: Se você escolheu você obteve maiores números de respostas das letras C e D, você está pronto para ingressar conosco. Caso não, estamos dispostos a ajudá-lo e incentivá-lo a conhecer esse novo universo!");
     }
 }
