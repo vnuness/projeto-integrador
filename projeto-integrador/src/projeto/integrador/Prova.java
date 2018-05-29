@@ -97,9 +97,9 @@ public class Prova
                 nota += 0.2;
                 break;
         }
-        System.out.println("3 - Dado a seguinte sintaxe: if (expressão);{ (1,0 pontos)"
+        System.out.println("3 - Dado a seguinte sintaxe: if (expressão);{ "
                 + " comando "
-                + "}");
+                + "} (1,0 pontos)");
         System.out.println(" Assinale a alternativa correta: 2,0 pontos");
         System.out.println("a) A sintaxe está correta. ");
         System.out.println("b) Não deve-se usar ponto e virgula após a expressão. ");
