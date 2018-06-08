@@ -12,7 +12,6 @@ public class MetodoPrincipal {
         Encerramento encerramento = new Encerramento();
         
         // chamada de todos os métodos
-        
         saudacao.boasvindas();
         cadastro.addUser();
         tv.testeVocacional();

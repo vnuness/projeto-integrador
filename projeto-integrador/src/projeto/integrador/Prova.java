@@ -68,7 +68,7 @@ public class Prova
                     + "Digite [1] para começar! ");
             opcao = input.nextInt();
         } while (opcao != 1);
-        System.out.println("1 - Qual estrutura condicional que pode substituir um bloco com muitas estruturas if/else? (0,2 pontos)");
+        System.out.println("1 - Qual estrutura condicional que pode substituir um bloco com muitas estruturas if? (0,2 pontos)");
         System.out.println("a) While ");
         System.out.println("b) for ");
         System.out.println("c) switch case ");
@@ -83,7 +83,7 @@ public class Prova
                 break;
         }
 
-        System.out.println("2 - Como é chamado o conjunto de vários If else no mesmo bloco? (0,2 pontos)");
+        System.out.println("2 - Como é chamado o conjunto de If dentro de If? (0,2 pontos)");
         System.out.println("a) if else conjunto ");
         System.out.println("b) if else alinhado ");
         System.out.println("c) if else aninhado ");
@@ -137,7 +137,7 @@ public class Prova
         Scanner input = new Scanner(System.in);
         System.out.println("\n ");
         System.out.println("5 - Selecione a melhor situação para se usar switch case. (0,4 pontos)\n"
-                + "a) No menu de um sistema gostaria que me levasse a determinada\n"
+                + "a) No menu de um sistema gostaria de ser levado a determinada\n"
                 + "opção selecionada no menu.\n"
                 + "b) Mostrar a Soma ou divisão ou qualquer equação matemática"
                 + "de dois números.\n"
@@ -165,12 +165,12 @@ public class Prova
                 nota += 0.5;
                 break;
         }
-        System.out.println("7 - Qual das opções está certa de como inciar o Switch case? (1,0 pontos)"
+        System.out.println("7 - Em qual das opções a forma de inciar o Switch case está correta? (1,0 pontos)"
                 + "\n a) Declarar Variável associada ao Switch e colocar, Switch();"
-                + "\n b) Declarar Váriável associada ao switch, inicializar ela, coloca,"
-                + "switch(variável){ e iniciar as cases."
-                + "\n c) Declarar Variável associada ao switch, e colocar,"
-                + "switch(variável) e iniciar as cases. ");
+                + "\n b) Declarar Váriável associada ao switch, iniciá-la, escrever,"
+                + "switch(variável){ e iniciar os cases."
+                + "\n c) Declarar Variável associada ao switch, e escrever,"
+                + "Switch(variável) e iniciar os cases. ");
         resposta[6] = input.next();
         respostauser[7][1] = "    " + resposta[6];
         switch (resposta[6])
@@ -181,8 +181,8 @@ public class Prova
                 break;
         }
         System.out.println("8 - Qual a informação INCORRETA? (2,0 pontos)\n"
-                + " a) Switch pode ser usado para que as informações dentro \n"
-                + "dele seja repetida inúmeras vezes ou até mesmo determinadas vezes"
+                + " a) Switch pode ser usado para que sejam tomadas certas decisões \n"
+                + "a partir do valor de uma variável"
                 + "\n b) Switch pode ser usado para guarda funções e informações dentro de cada case"
                 + "\n c) Switch pode ser usado para deixar as funções mais organizadas na hora"
                 + "de chamar para ser executada. ");
