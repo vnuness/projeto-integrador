@@ -19,7 +19,6 @@ public class MetodoPrincipal {
         prova.provaIfElse();
         prova.provaSwitch();
         prova.provaVetor();
-        prova.imprimeResultado();
         float nota = prova.imprimeResultado();
         encerramento.encerramento();
         encerramento.resultadoFinal(nota);
