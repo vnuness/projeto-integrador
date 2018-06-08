@@ -9,9 +9,9 @@ public class Encerramento
 
     public void encerramento()
     {
-        System.out.println("O aluno " + nome + "\n"
-                + "Conhecido por: " + apelido + "\n"
-                + "De " + idade + " anos");
+        System.out.println("O aluno " + nome + ",\n"
+                + "Conhecido por: " + apelido + ",\n"
+                + "De " + idade + " anos,");
     }
 
     public void resultadoFinal(float nota)
